@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>For My Sister Ritika 💖</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to top, #001f3f, #0074D9);
+      color: #fff;
+      overflow-x: hidden;
+    }
+
+    h1 {
+      text-align: center;
+      font-size: 3em;
+      margin-top: 40px;
+    }
+
+    p {
+      text-align: center;
+      font-size: 1.2em;
+      max-width: 700px;
+      margin: 20px auto;
+      line-height: 1.6;
+    }
+
+    .stars::before {
+      content: '';
+      position: fixed;
+      top: -100%;
+      left: 0;
+      width: 100%;
+      height: 300%;
+      background: url('https://cdn.pixabay.com/photo/2016/11/29/02/14/abstract-1868199_1280.png');
+      animation: stars 60s linear infinite;
+      opacity: 0.3;
+      z-index: -1;
+    }
+
+    @keyframes stars {
+      0% { transform: translateY(0); }
+      100% { transform: translateY(100%); }
+    }
+
+    .button-container {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 15px;
+      margin: 30px 0;
+    }
+
+    button {
+      padding: 12px 24px;
+      background-color: #ff69b4;
+      color: white;
+      border: none;
+      border-radius: 30px;
+      font-size: 16px;
+      cursor: pointer;
+      box-shadow: 0 0 10px rgba(255,255,255,0.5);
+      transition: transform 0.2s;
+    }
+
+    button:hover {
+      transform: scale(1.1);
+    }
+
+    .carousel {
+      display: flex;
+      overflow-x: auto;
+      scroll-snap-type: x mandatory;
+      gap: 20px;
+      padding: 20px;
+      max-width: 90%;
+      margin: auto;
+    }
+
+    .carousel img {
+      height: 250px;
+      border-radius: 20px;
+      scroll-snap-align: center;
+      box-shadow: 0 0 15px rgba(255,255,255,0.4);
+    }
+
+    .timeline {
+      max-width: 700px;
+      margin: 40px auto;
+    }
+
+    .timeline-item {
+      background: rgba(255, 255, 255, 0.1);
+      margin: 10px 0;
+      padding: 15px 20px;
+      border-left: 4px solid #ff69b4;
+      border-radius: 5px;
+    }
+
+    .timeline-item h3 {
+      margin: 0;
+      font-size: 1.2em;
+      color: #ffdede;
+    }
+
+    .timeline-item p {
+      margin: 5px 0 0;
+      color: #f1f1f1;
+    }
+
+    .gifts {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 20px;
+      max-width: 800px;
+      margin: 40px auto;
+    }
+
+    .gift-card {
+      background: rgba(255, 255, 255, 0.1);
+      border: 2px solid #ff99cc;
+      border-radius: 15px;
+      padding: 20px;
+      width: 220px;
+      text-align: center;
+      box-shadow: 0 0 10px rgba(255,255,255,0.3);
+    }
+
+    .gift-card img {
+      width: 80px;
+      margin-bottom: 10px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9em;
+      color: #ddd;
+    }
+
+    audio {
+      position: fixed;
+      bottom: 20px;
+      left: 20px;
+      z-index: 99;
+    }
+  </style>
+</head>
+<body>
+  <div class="stars"></div>
+
+  <h1>For My Dearest Sister Ritika 💖</h1>
+  <p>
+    Even if you're far away, our bond is stronger than distance.<br/>
+    You're my forever partner in crime, my secret keeper, and the sparkle in my childhood memories.  
+    <br><br>
+    <em>"A sister is both your mirror—and your opposite."</em>
+  </p>
+
+  <div class="button-container">
+    <button onclick="sendHug()">🤗 Send Virtual Hug</button>
+    <button onclick="showQuote()">💬 Show Sister Quote</button>
+    <button onclick="showSurprise()">🎁 Open Surprise</button>
+  </div>
+
+  <h2 style="text-align:center; margin-top:40px;">📸 Our Memories</h2>
+  <div class="carousel">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsi7gfChVqZSeQvCPfc5ip3573npLb2xpM97aroutxVFTs7FmsPVL3dio&s=10" alt="Memory 1"/>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkNxE8EPbQHrtl1Q6NqiiBaFdarDLr1Lpobw&usqp=CAU" alt="Memory 2"/>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZxscQAHOAKbQD786K7uuOpiREyHV_7laCHg&usqp=CAU" alt="Memory 3"/>
+  </div>
+
+  <h2 style="text-align:center; margin-top:40px;">🕰️ Our Timeline</h2>
+  <div class="timeline">
+    <div class="timeline-item">
+      <h3>Childhood Mischief</h3>
+      <p>Ham bhale childhood me sath na rahe ho bahini lekin i wish ki meri pyari bahna miss to karegi hi mujhe .</p>
+    </div>
+    <div class="timeline-item">
+      <h3>2lExam Support</h3>
+      <p>Apni bahan ke exam ke time bhale ham sath na ho par mai prathna jaroor karta hu apni pyati bahan ke liye ki wo achha score kare.</p>
+    </div>
+    <div class="timeline-item">
+      <h3>Snapchat Fun</h3>
+      <p>Snapchat hi bana hamare rishtey ka sahara .jo mujhe milaya meri bahan se jiska emotions hai sabse pyara</p>
+    </div>
+  </div>
+
+  <h2 style="text-align:center; margin-top:40px;">🎁 Virtual Gifts for You, Ritika</h2>
+  <div class="gifts">
+    <div class="gift-card">
+      <img src="https://cdn-icons-png.flaticon.com/512/2623/2623368.png" alt="Heart Gift">
+      <p>A Box Full of Love 💝</p>
+    </div>
+    <div class="gift-card">
+      <img src="https://cdn.pixabay.com/photo/2023/11/29/12/29/cartoon-8419487_1280.jpg" alt="Stars Gift">
+      <p>A Jar of Stars 🌟 Just Like You</p>
+    </div>
+    <div class="gift-card">
+      <img src="https://cdn.pixabay.com/photo/2017/08/11/12/52/rakhi-2630652_1280.jpg" alt="Memory Gift">
+      <p>Endless Memories 💫 From Your Brother</p>
+    </div>
+    <div class="gift-card">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjjP8RdEjrpPHRggpIi8VsPP9EVbELdLQF5LgOH_isrOOSWfWZUaJmv8SV&s=10" alt="Hug Gift">
+      <p>One Giant Hug 🤗 Sent With Heart</p>
+    </div>
+  </div>
+
+  <footer>
+    Made with 💖 by your brother Hrishi | Miss you, Ritika 🌙
+  </footer>
+
+  <audio autoplay loop controls>
+    <source src="https://cdn.pixabay.com/audio/2022/12/22/audio_9c1e5725d0.mp3" type="audio/mpeg">
+    Your browser does not support audio.
+  </audio>
+
+  <script>
+    const quotes = [
+      "Sisters are angels who lift us to our feet when our wings forget how to fly.",
+      "Having a sister is like having a best friend you can’t get rid of.",
+      "No matter how far apart we are, you’ll always be in my heart.",
+      "A sister is a little bit of childhood that can never be lost.",
+      "Sisters may drive you crazy, but they’ll never stop loving you."
+    ];
+
+    function sendHug() {
+      alert("🤗 Sending you the warmest virtual hug, meri pyari! Close your eyes and feel it.");
+    }
+
+    function showQuote() {
+      const randomQuote = quotes[Math.floor(Math.random() * quotes.length)];
+      alert("💬 " + randomQuote);
+    }
+
+    function showSurprise() {
+      alert("🎉 Surprise Ritika! You’re the most special sister ever. This page is your virtual gift from your forever-loving brother 💝");
+    }
+  </script>
+</body>
+</html>
